@@ -17,7 +17,7 @@ img {
 }
 
 .container {
-  max-width: 900px;
+  max-width: 600px;
   margin: 0 auto;
 }
 
@@ -31,4 +31,13 @@ img {
   display: flex;
   justify-content: center;
   gap: 16px;
+  margin-bottom: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+.success-response, .error-response {
+  text-align: center;
 }
